@@ -1,12 +1,6 @@
-name: IITM Verification
-
-on: 
-  push:
-  workflow_dispatch:
-
 jobs:
-  verify-step:
-    runs-on: ubuntu-latest
+  test:
     steps:
-      - name: "22f3000272@ds.study.iitm.ac.in"
-        run: echo "Verification step is running"
+      - name: 22f3000272@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+      
